@@ -99,30 +99,3 @@
         .project-popup-link-to-project{font-size:13px}}:root{--main:#1c3144}
 
 
-
-
-/*.about {
-  
-  height:75vh;
-  align-content:center;
-  grid-gap:1vh;
-  text-align:center;
-  color:#fff;
-  background:-webkit-linear-gradient(135deg,#ee7752,#f42272,#1c3144,#23a6d5);
-  background:linear-gradient(-45deg,#ee7752,#f42272,#1c3144,#23a6d5);
-  background:-webkit-linear-gradient(135deg,#ee7752,#f42272,var(--main),#23a6d5);
-  background:linear-gradient(-45deg,#ee7752,#f42272,var(--main),#23a6d5);
-  background-size:400% 400%;
-  -webkit-animation:bg-colors 10s ease infinite;
-  animation:bg-colors 10s ease infinite
-}
-
-@-webkit-keyframes bg-colors{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}  
-    @keyframes bg-colors{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
-    @media screen and (max-width:768px){body{width:100%}
-    .navbar>button:hover{color:#fff;background-color:#1c3144;background-color:var(--main);font-size:1em}}
-    @media screen and (max-width:700px){
-        .navbar>a{justify-self:center}
-        .navbar-menu,.navbar>button{display:none}}
-    @media only screen and (max-width:376px){
-        .project-popup-link-to-project{font-size:13px}}:root{--main:#1c3144}*/
