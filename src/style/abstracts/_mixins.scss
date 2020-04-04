@@ -71,7 +71,6 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     -webkit-text-fill-color: transparent;
     color:transparent; 
   }
-
 }
 
 @mixin supportIE11 { // Provide your basic styles to support IE11
@@ -79,5 +78,4 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     @content;
   }
 }
-
 
