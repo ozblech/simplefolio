@@ -40,7 +40,7 @@ a:hover {
 
 .text-color-main {
   @include supportColorForIE11();
-  
+
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
@@ -52,4 +52,27 @@ a:hover {
   }
 
 }
+
+.anim {
+  background-image: linear-gradient(to right , #D33F2d,#219FCF,#D539C9,#902F88,#29AEA7);
+  -webkit-background-clip: text;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate
+  {
+    0%
+    {
+      background-position: 0% 100%;
+    }
+    50%
+    {
+      background-position: 100% 100%;
+    }
+    100%
+    {
+      background-position: 0% 100%;
+    }
+  }
 
